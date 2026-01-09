@@ -1,22 +1,22 @@
 # Lab 3 - Construire un écran d'accueil défilant avec ScrollView
 
-## 📱 Description du projet
+##  Description du projet
 
 Ce projet démontre l'utilisation de `ScrollView` dans React Native pour créer un écran d'accueil avec du contenu défilant. Le texte d'accueil est volontairement long pour illustrer comment permettre à l'utilisateur de faire défiler et lire tout le contenu.
 
-## 🎯 Objectifs du lab
+##  Objectifs du lab
 
-- ✅ Remplacer `View` par `ScrollView` pour permettre le défilement vertical
-- ✅ Configurer `indicatorStyle` pour une barre de défilement blanche visible sur fond sombre
-- ✅ Tester le comportement de défilement dans l'application
+-  Remplacer `View` par `ScrollView` pour permettre le défilement vertical
+-  Configurer `indicatorStyle` pour une barre de défilement blanche visible sur fond sombre
+-  Tester le comportement de défilement dans l'application
 
-## 📋 Prérequis
+##  Prérequis
 
 - Node.js installé (version 14 ou supérieure)
 - npm ou yarn
 - Expo CLI installé globalement (`npm install -g expo-cli`)
 
-## 🚀 Installation et lancement
+##  Installation et lancement
 
 ### 1. Installer les dépendances
 
@@ -45,7 +45,7 @@ npm run android
 npm run ios
 ```
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 .
@@ -77,7 +77,7 @@ npm run ios
 - 🎨 Barre de défilement blanche adaptée au thème sombre
 - 📱 Responsive et compatible avec différents écrans
 
-## 🧪 Test de l'application
+## Test de l'application
 
 1. Lancez l'application avec `npm start` ou `npm run web`
 2. Ouvrez l'émulateur ou le navigateur web
@@ -88,20 +88,20 @@ npm run ios
    - La barre blanche de défilement apparaît sur le côté
    - Le défilement est fluide
 
-## 📝 Notes
+##  Notes
 
 - `ScrollView` remplace `View` comme conteneur principal pour permettre le défilement
 - `indicatorStyle="white"` peut être changé en `indicatorStyle="black"` si le fond devient clair
 - Cette approche peut être réutilisée pour n'importe quel écran avec beaucoup de contenu
 
-## 🎓 Compétences validées
+##  Compétences validées
 
 Ce lab valide la capacité à :
-- ✅ Choisir le bon composant conteneur (`ScrollView` vs `View`)
-- ✅ Configurer les props essentielles (`style`, `indicatorStyle`)
-- ✅ Tester un comportement de défilement dans une application React Native
+-  Choisir le bon composant conteneur (`ScrollView` vs `View`)
+-  Configurer les props essentielles (`style`, `indicatorStyle`)
+- Tester un comportement de défilement dans une application React Native
 
-## 📚 Ressources
+##  Ressources
 
 - [Documentation React Native - ScrollView](https://reactnative.dev/docs/scrollview)
 - [Documentation Expo](https://docs.expo.dev/)
